@@ -1,0 +1,21 @@
+Win32-FirewallParser version 0.01
+=================================
+
+Win32::FirewallParser is a very simple module that can be used for
+parsing Windows XP SP2 firewall logs.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 by Luke Triantafyllidis
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

@@ -1,0 +1,7 @@
+Changes
+fparse.pl
+Makefile.PL
+MANIFEST
+README
+t/Win32-FirewallParser.t
+lib/Win32/FirewallParser.pm
