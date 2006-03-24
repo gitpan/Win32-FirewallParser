@@ -4,5 +4,5 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Win32/FirewallParser.pm',
     PREREQ_PM         => {},
     ABSTRACT_FROM     => 'lib/Win32/FirewallParser.pm',
-    AUTHOR            => 'Luke Triantafyllidis <triple@aeoth.net>'
+    AUTHOR            => 'Luke Triantafyllidis <ltriant@cpan.org>'
 );

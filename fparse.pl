@@ -1,24 +1,24 @@
-#!/usr/bin/perl -w
-
 # Test code for Win32::FirewallParser
-# by Luke Triantafyllidis <triple[at]aeoth.net>
+# by Luke Triantafyllidis <ltriant[at]cpan.org>
 
 use strict;
 use Win32::FirewallParser;
 
 my $obj = new Win32::FirewallParser;
 
-$obj->setHandler(\&printLine);
+$obj->addHandler(\&printLine);
 $obj->parseFile();
 
-sub printLine
-{
+sub printLine {
 	my $data = shift;
 
-	for my $key (keys %{$data})
-	{
+	for my $key (keys %{$data}) {
 		printf "%10s => %s\n", $key, $data->{$key};
 	}
 
 	print "\n";
+}
+
+sub dummyHandler {
+	print "This is a dummy handler that should never execute :>";
 }
