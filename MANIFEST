@@ -1,10 +1,10 @@
+bin/fparse.pl
 Changes
-fparse.pl
-Makefile.PL
-MANIFEST
-README
-t/Win32-FirewallParser.t
-t/no_pod_errors.t
 lib/Win32/FirewallParser.pm
 lib/Win32/FirewallParser.pod
+Makefile.PL
+MANIFEST			This list of files
+README
+t/0_no_pod_errors.t
+t/1_Win32-FirewallParser.t
 META.yml                                 Module meta-data (added by MakeMaker)

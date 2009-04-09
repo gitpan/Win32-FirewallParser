@@ -1,5 +1,8 @@
 Revision history for Perl extension Win32::FirewallParser.
 
+0.03  Thu Apr 9 2009
+	- Fixed no_pod_errors.t to check if Test::Pod is available so it doesn't throw errors during 'make test'.
+
 0.02  Fri Mar 24 2006
 	- Added support for multiple handlers
 	- Added tests
